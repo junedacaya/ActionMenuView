@@ -49,9 +49,9 @@ I added a simple TODO list for easy code creation guide
 
 ### References
 [FOSSASSIA](https://blog.fossasia.org/adding-actionmenuview-to-place-navigation-buttons-in-phimpme-android/)
+
 [ANDROID STUDIO](https://developer.android.com/reference/android/widget/ActionMenuView)
+
 [STACKOVERFLOW](https://stackoverflow.com/questions/27988346/how-to-use-actionmenuview)
-```
-Give an example
-```
+
 
