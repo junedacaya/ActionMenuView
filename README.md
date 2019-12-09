@@ -1,7 +1,5 @@
-#Syntax 
-# Action Menu View
 
-One Paragraph of project description goes here
+# Action Menu View
 
 ## Getting Started
 
