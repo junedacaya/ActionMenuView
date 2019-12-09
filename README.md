@@ -5,30 +5,48 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+ActionMenuView is a series of menu options shown as a View. This offers as action buttons some top-level options while pouring over the remaining options as elements in a menu overload. It allows applications to display inline packages of behaviour with similar or repeated content.
 
-### Prerequisites
+### History
 
-What things you need to install the software and how to install them
+It was introduce to the Android System 21. It is included in the AndroidX library.
 
+### Major Attributes and Methods
+
+Attributes
 ```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
+Inherited XML attributes
+android.widget.LinearLayout
+android.view.ViewGroup
+android.view.View
 ```
 
-And repeat
+And Methods
 
 ```
-until finished
+public void dismissPopupMenus ()
+public ActionMenuView.LayoutParams generateLayoutParams (AttributeSet attrs)
+public Menu getMenu ()
+public Drawable getOverflowIcon ()
+public int getPopupTheme ()
+public boolean hideOverflowMenu ()
+public boolean isOverflowMenuShowing ()
+public void onConfigurationChanged (Configuration newConfig)
+public void onDetachedFromWindow ()
+public void setOnMenuItemClickListener (ActionMenuView.OnMenuItemClickListener listener)
+public void setOverflowIcon (Drawable icon)
+public void setPopupTheme (int resId)
+public boolean showOverflowMenu ()
+protected boolean checkLayoutParams (ViewGroup.LayoutParams p)
+protected ActionMenuView.LayoutParams generateDefaultLayoutParams ()
+protected ActionMenuView.LayoutParams generateLayoutParams (ViewGroup.LayoutParams p)
+protected void onLayout (boolean changed, 
+                int left, 
+                int top, 
+                int right, 
+                int bottom)
+protected void onMeasure (int widthMeasureSpec, 
+                int heightMeasureSpec)
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
